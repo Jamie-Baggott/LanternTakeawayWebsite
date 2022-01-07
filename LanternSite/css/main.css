@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#000000;
+}
+html,h1,h2,h3,h4,h5,h6,p,a{
+	font-family: "Helvetica";
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar{width : 15px;  }
+
+::-webkit-scrollbar-thumb {
+  background: #daa003;
+  border-radius: 10px;
+}
+
+#myInput {
+    padding: 20px;
+    margin-top: -6px;
+    border: 0;
+    border-radius: 0;
+	color:rgb(0, 0, 0);
+    background: #daa003;
+}
+.dropdown .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited{
+	color: rgb(0, 0, 0);
+	background-color:#daa003 !important;
+	border: 0;
+
+}
+.dropdown-menu, .dropdown-menu.form-control::placeholder, a, input {
+	color: rgb(0, 0, 0);
+	background:#daa003;
+}
+
+
+.navbar{
+	background:#daa003;
+}
+.nav-link , .navbar-brand{
+	color: #000000;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover, .navbar-brand:hover{
+	background: #000000;
+	color: #daa003;
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#daa003 !important;
+}
+
+.header{
+	position: relative;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+
+}
+.about{
+	position: relative;
+}
+.about h2{
+	color:#daa003;
+	margin: 2em;
+}
+.about img{
+	height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+	display: block;
+	color: #daa003;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #daa003;
+}
+.about .desc h3{
+	color: #daa003;
+}
+.about .desc p{
+	line-height:2;
+	color:#daa003;
+}
+.menu{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.menu h2{
+	color:#daa003;
+	margin: 2em;
+}
+.menu img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;;
+}
+.menu span{
+	display: block;
+	color: #daa003;
+	position: absolute;
+	left: 115px;
+}
+
+.links{
+	margin: 4em 0;
+	position: relative;	
+}
+.links h2{
+	color:#daa003;
+	
+}
+.links img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+}
+
+.food{
+	margin: 4em 0;
+	position: relative;
+
+}
+.food h2{
+	color:#daa003;
+	margin: 2em;		
+}
+.food .des{
+	background: #daa003;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	border-top-right-radius: 50%;
+	transition:.5s ease-in-out;
+	position: absolute;
+	width: 90%;
+	bottom: 0px;
+}
+.food .item:hover .des{
+	height: 100%;
+	background:#daa003;
+    position: absolute;
+	width: 90%;
+	padding: 5em;
+	top: 0;
+	border-top-right-radius: 0;
+
+}
+.videos h2{
+	color:#daa003;
+	margin: 2em;		
+}
+.contact-form{
+	margin: 6em 0;
+	position: relative;		
+}
+
+.contact-form h2{
+	padding:2em 1px;
+	color: #daa003; 
+}
+.contact-form .right{
+	max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+	background:  #daa003;
+	color: #fff;
+	border:0;
+}
+.contact-form .right .form-control::placeholder{
+	color: #000000;
+	font-size: 16px;
+}
+
+.collapsible {
+	background-color: #daa003;
+	color: 000000;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: auto;
+	border-color: black;
+	text-align: center;
+	outline: none;
+	font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+	background-color: #000000;
+	color: #daa003; 
+  }
+  
+  .collapsible:after {
+	content: '\002B';
+	color: #000000;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+  }
+  
+  .active:after {
+	content: "\2212";
+	color: #daa003;
+  }
+  
+  .content {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	text-align: center;
+	transition: max-height 0.2s ease-out;
+	color: #000000;
+	background-color: #daa003;
+  }
+
+.tab {
+	padding:  100px;
+	overflow: hidden;
+	border: 0;
+	background-color: #000000;
+  }
+  
+  .tab button, .tabcontent button{
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+  }
+  
+  .tab button:hover, .tabcontent button.hover {
+	background-color: #daa003;
+  }
+  
+  .tab button.active, .tabcontent button.active {
+	background-color: rgb(0, 0, 0);
+  }
+  
+  .tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 0;
+	border-top: none;
+	color: #daa003
+  }
+  
+  .topright {
+	float: right;
+	cursor: pointer;
+	font-size: 28px;
+  }
+  section, article
+{
+    width: 100%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+
+  
